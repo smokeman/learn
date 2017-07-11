@@ -1,0 +1,6 @@
+git init
+git remote add origin https://github.com/smokeman/mubantang.git
+//当远程库有文件时，要使用--rebase
+
+git pull --rebase origin master
+git push origin master
