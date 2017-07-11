@@ -4,3 +4,6 @@ git remote add origin https://github.com/smokeman/mubantang.git
 
 git pull --rebase origin master
 git push origin master
+
+$ git config　user.name nickname#将用户名设为nickname
+$ git config　user.email nickname@gmail.com #将用户邮箱设为nickname@gmail.com
