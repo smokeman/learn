@@ -10,3 +10,14 @@ $ git config　user.email nickname@gmail.com #将用户邮箱设为nickname@gmail.com
 
 错误1:
 Your branch and 'origin/master' have diverged
+
+
+//-------------------------------------------------------------
+// Branch master set up to track remote branch master from origin
+//-------------------------------------------------------------
+没有commit
+
+//--------------------
+// 强行拉取远端,本地修改会被忽略[危险]
+//--------------------
+git fetch --all
